@@ -24,7 +24,6 @@ bodyBack.style.backgroundImage = 'url(image/you-dont-know-js.jpg)';
 titleBooks[2].innerHTML = '<a>Книга 3. this и Прототипы Объектов</a>';
 //4
 adv.style.display = 'none';
-
 //5
 listItem[2].remove();
 list[1].prepend(
@@ -45,19 +44,6 @@ list[4].prepend(
     listItem[52],
     listItem[53]
     )
-
-console.log(listItem);
-console.log(listItem[46]); 
-console.log(listItem[47]);
-console.log(listItem[48]); 
-console.log(listItem[49]); 
-console.log(listItem[50]); 
-console.log(listItem[51]); 
-console.log(listItem[52]); 
-console.log(listItem[53]); 
-console.log(listItem[54]); 
-console.log(listItem[55]); 
-
 //6
 list[2].insertAdjacentHTML('beforeend', `<li>Глава 8: За пределами ES6</li>`);
 
