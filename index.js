@@ -45,7 +45,8 @@ list[4].prepend(
     listItem[53]
     )
 //6
-list[2].insertAdjacentHTML('beforeend', `<li>Глава 8: За пределами ES6</li>`);
+listItem[25].insertAdjacentHTML('beforeend', `<li>Глава 8: За пределами ES6</li>`);
+
 
 
 
